@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AnchorAndLinkPage</title>
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <script src="main.js"></script>
+    <!-- 
+       Root: โฟลเดอร์แรก ดีสุด  /
+       Current: โฟลเดอร์ปัจจุบัน ./
+       Parent:  โฟลเดอร์ก่อนหน้า ../
+    -->
+    <h1>🏠 Home</h1>
+    <!-- External link -->
+    <h2>Absolute Path</h2>
+    <h3>External Link</h3>
+    <ul>
+        <li>
+            <a href="https://www.google.com">Google</a>
+        </li>
+        <li>
+            <a href="https://www.google.com" target="_blank">Google</a>
+        </li>
+    </ul>
+    <hr />
+    <h2>Relative Path</h2>
+    <!-- Internal Link  -->
+    <h3>Current</h3>
+    <ul>    
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="books/programming/js.html">Books/Programming/Javascript</a></li>
+        <li><a href="books/programming/c++.html">Books/Programming/C++</a></li>
+        <li><a href="books/engineering/physics.html">Books/Engineering/Physics</a></li>
+        <li><a href="books/engineering/dynamics.html">Books/Engineering/Dynamics</a></li>
+        <li><a href="sport/formula1.html">Sport/Formula1</a></li>
+    </ul>
+    <!-- Internal Link (Current with ./) -->
+    <h3>Current with ./</h3>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./books/programming/js.html">Books/Programming/Javascript</a></li>
+        <li><a href="./books/programming/c++.html">Books/Programming/C++</a></li>
+        <li><a href="./books/engineering/physics.html">Books/Engineering/Physics</a></li>
+        <li><a href="./books/engineering/dynamics.html">Books/Engineering/Dynamics</a></li>
+        <li><a href="./sport/formula1.html">Sport/Formula1</a></li>
+    </ul>
+    <!-- Root  -->
+    <h3>Root</h3>
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/books/programming/js.html">Books/Programming/Javascript</a></li>
+        <li><a href="/books/programming/c++.html">Books/Programming/C++</a></li>
+        <li><a href="/books/engineering/physics.html">Books/Engineering/Physics</a></li>
+        <li><a href="/books/engineering/dynamics.html">Books/Engineering/Dynamics</a></li>
+        <li><a href="/sport/formula1.html">Sport/Formula1</a></li>
+    </ul>
 </body>
+
 </html>
